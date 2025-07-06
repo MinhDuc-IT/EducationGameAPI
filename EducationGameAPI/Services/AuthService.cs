@@ -35,7 +35,8 @@ namespace EducationGameAPI.Services
             return new TokenResponseDto
             {
                 AccessToken = CreateToken(user),
-                RefreshToken = await GenerateAndSaveRefreshTokenAsync(user)
+                RefreshToken = await GenerateAndSaveRefreshTokenAsync(user),
+                //UserId = user.Id
             };
         }
 
@@ -60,9 +61,9 @@ namespace EducationGameAPI.Services
             return user;
         }
 
-        public async Task<TokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto request)
+        public async Task<TokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto request, Guid userId)
         {
-            var user = await ValidateRefreshTokenAsync(request.UserId, request.RefreshToken);
+            var user = await ValidateRefreshTokenAsync(userId, request.RefreshToken);
             if (user is null)
             {
                 return null;
@@ -123,6 +124,19 @@ namespace EducationGameAPI.Services
 
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
 
+        }
+
+        public async Task LogoutAsync(Guid userId)
+        {
+            var user = await context.Users.FindAsync(userId);
+            if (user == null)
+            {
+                throw new KeyNotFoundException("User not found");
+            }
+
+            user.RefreshToken = null;
+            user.RefreshTokenExpiryTime = null;
+            await context.SaveChangesAsync();
         }
     }
 }

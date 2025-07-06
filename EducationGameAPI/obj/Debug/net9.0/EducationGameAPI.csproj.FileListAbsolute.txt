@@ -166,3 +166,4 @@ D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.pdb
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.genruntimeconfig.cache
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\ref\EducationGameAPI.dll
+D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.sourcelink.json

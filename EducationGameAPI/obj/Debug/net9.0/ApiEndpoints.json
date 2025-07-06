@@ -37,6 +37,16 @@
   },
   {
     "ContainingType": "EducationGameAPI.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationGameAPI.Controllers.AuthController",
     "Method": "RefreshToken",
     "RelativePath": "api/Auth/refresh-token",
     "HttpMethod": "POST",
@@ -86,6 +96,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "EducationGameAPI.Controllers.GameSessionController",
+    "Method": "CreateGameSession",
+    "RelativePath": "api/GameSession/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EducationGameAPI.Models.GameSessionCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationGameAPI.Controllers.GameSessionController",
+    "Method": "GetLatestSession",
+    "RelativePath": "api/GameSession/latest-session",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationGameAPI.Controllers.GameSessionController",
+    "Method": "GetGameSummary",
+    "RelativePath": "api/GameSession/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "EducationGameAPI.Controllers.WeatherForecastController",
