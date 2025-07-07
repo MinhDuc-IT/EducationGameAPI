@@ -34,7 +34,7 @@ namespace EducationGameAPI.Controllers
         }
 
         [HttpGet("latest-session")]
-        public async Task<IActionResult> GetLatestSession()
+        public async Task<IActionResult> GetLatestSession([FromQuery] string gameType)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace EducationGameAPI.Controllers
                 {
                     return Unauthorized("User is not authenticated.");
                 }
-                var latestSession = await gameSessionService.GetLatestSessionAsync(userId);
+                var latestSession = await gameSessionService.GetLatestSessionAsync(userId, gameType);
                 if (latestSession == null)
                 {
                     return NotFound("No game session found for this user.");

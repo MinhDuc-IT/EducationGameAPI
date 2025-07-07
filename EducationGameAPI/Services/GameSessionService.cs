@@ -68,10 +68,10 @@ namespace EducationGameAPI.Services
             };
         }
 
-        public async Task<GameSessionDto?> GetLatestSessionAsync(Guid userId)
+        public async Task<GameSessionDto?> GetLatestSessionAsync(Guid userId, string gameType)
         {
             var latestSession = await context.GameSessions
-                .Where(gs => gs.UserId == userId)
+                .Where(gs => gs.UserId == userId && gs.GameType == gameType)
                 .OrderByDescending(gs => gs.EndTime)
                 .FirstOrDefaultAsync();
 

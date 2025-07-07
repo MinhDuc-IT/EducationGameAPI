@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EducationGameAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27f64616cc43d8db217b991152218630de48a359")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f172c4c7bb3d2884a5dc5b36c8ff97077b3276")]
 [assembly: System.Reflection.AssemblyProductAttribute("EducationGameAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EducationGameAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
