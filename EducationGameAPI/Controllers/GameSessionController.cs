@@ -57,7 +57,7 @@ namespace EducationGameAPI.Controllers
         }
 
         [HttpGet("summary")]
-        public async Task<IActionResult> GetGameSummary()
+        public async Task<IActionResult> GetGameSummary([FromQuery] string gameType)
         {
             try
             {
@@ -66,12 +66,31 @@ namespace EducationGameAPI.Controllers
                 {
                     return Unauthorized("User is not authenticated.");
                 }
-                var summary = await gameSessionService.GetGameSummaryAsync(userId);
+                var summary = await gameSessionService.GetGameSummaryAsync(userId, gameType);
                 if (summary == null)
                 {
                     return NotFound("No game sessions found for this user.");
                 }
                 return Ok(summary);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
+
+        [HttpGet("unlocked-status")]
+        public async Task<IActionResult> GetUnlockedGameStatus()
+        {
+            try
+            {
+                var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                if (userId == null)
+                {
+                    return Unauthorized("User is not authenticated.");
+                }
+                var unlockedStatus = await gameSessionService.GetUnlockStatusWithScoresAsync(userId);
+                return Ok(unlockedStatus);
             }
             catch (Exception ex)
             {

@@ -136,6 +136,22 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationGameAPI.Controllers.GameSessionController",
+    "Method": "GetUnlockedGameStatus",
+    "RelativePath": "api/GameSession/unlocked-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
   },

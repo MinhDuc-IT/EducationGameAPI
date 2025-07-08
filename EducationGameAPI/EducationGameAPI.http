@@ -1,6 +1,23 @@
 @EducationGameAPI_HostAddress = http://localhost:5226
+@access_token = eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZHVjIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIzMDU2MWFmYy1lZTQyLTQ2YWItYWQyNi0wOGRkYmFhOWYwZjgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIiLCJleHAiOjE3NTIwMjYwMzYsImlzcyI6Ik15QXdlc29tZUFwcCIsImF1ZCI6Ik15QXdlc29tZUFwcFVzZXJzIn0.xQqiZt0HOlDwC3m_UD8hVmYZgQDstflrUkenVfyI9cF13gPeSBDQbLgYmK3qpzi2M3rKdcvBW4f_dOynBQE9AwJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIiLCJleHAiOjE3NTIwMjUyOTAsImlzcyI6Ik15QXdlc29tZUFwcCIsImF1ZCI6Ik15QXdlc29tZUFwcFVzZXJzIn0.coW2cCE7eFap6_FkHPnyZWyKPLJI4zdk6WcxbkC7_smsrsS-Ru4GYiK61tVu44aa2Cpz1iTawlCRBwg6QgoSEQ
 
 GET {{EducationGameAPI_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+POST {{EducationGameAPI_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "duc",
+  "password": "123"
+}
+
+###
+
+GET {{EducationGameAPI_HostAddress}}/api/gamesession/unlocked-status
+Accept: application/json
+Authorization: Bearer {{access_token}}
 
 ###

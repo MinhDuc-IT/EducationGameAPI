@@ -48,10 +48,10 @@ namespace EducationGameAPI.Services
             return gameSession.Id;
         }
 
-        public async Task<GameSummaryDto?> GetGameSummaryAsync(Guid userId)
+        public async Task<GameSummaryDto?> GetGameSummaryAsync(Guid userId, string gameType)
         {
             var gameSessions = await context.GameSessions
-                .Where(gs => gs.UserId == userId)
+                .Where(gs => gs.UserId == userId && gs.GameType == gameType)
                 .ToListAsync();
 
             if (gameSessions.Count == 0) return null;
@@ -86,6 +86,78 @@ namespace EducationGameAPI.Services
                 CorrectFirstTry = latestSession.CorrectFirstTry,
                 CorrectSecondTry = latestSession.CorrectSecondTry
             };
+        }
+
+        public async Task<List<(string GameType, double TotalScore)>> GetGameScoresAsync(Guid userId)
+        {
+            var sessions = await context.GameSessions
+                .Where(s => s.UserId == userId)
+                .GroupBy(s => s.GameType)
+                .Select(g => new
+                {
+                    GameType = g.Key,
+                    TotalScore = g.Sum(s => s.Score)
+                })
+                .ToListAsync();
+
+            return sessions.Select(s => (s.GameType, s.TotalScore)).ToList();
+        }
+
+        public async Task<List<string>> GetUnlockedGamesAsync(Guid userId)
+        {
+            var scores = await GetGameScoresAsync(userId);
+
+            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "NewGame" };
+            var unlocked = new List<string>();
+
+            double prevScore = 0;
+
+            for (int i = 0; i < gameOrder.Count; i++)
+            {
+                var game = gameOrder[i];
+                var currentScore = scores.FirstOrDefault(s => s.GameType == game).TotalScore;
+
+                bool isUnlocked = i == 0 || prevScore >= 50;
+
+                if (isUnlocked)
+                {
+                    unlocked.Add(game);
+                    prevScore = currentScore;
+                }
+            }
+
+            return unlocked;
+        }
+
+        public async Task<List<GameUnlockStatusDto>> GetUnlockStatusWithScoresAsync(Guid userId)
+        {
+            var scores = await GetGameScoresAsync(userId);
+            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "NewGame" };
+
+            var result = new List<GameUnlockStatusDto>();
+            double prevScore = 0;
+
+            for (int i = 0; i < gameOrder.Count; i++)
+            {
+                var game = gameOrder[i];
+                double score = scores.FirstOrDefault(s => s.GameType == game).TotalScore;
+
+                bool unlocked = i == 0 || prevScore >= 50;
+
+                if (unlocked)
+                {
+                    prevScore = score;
+                }
+
+                result.Add(new GameUnlockStatusDto
+                {
+                    GameType = game,
+                    Unlocked = unlocked,
+                    TotalScore = score
+                });
+            }
+
+            return result;
         }
     }
 }
