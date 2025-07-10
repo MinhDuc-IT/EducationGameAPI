@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\services\\gamesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\services\\gamesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\controllers\\gamesessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\controllers\\gamesessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\entities\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\entities\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\models\\gamesessioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\gamesessioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\models\\gamesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\gamesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\educationgameapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -21,22 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\services\\igamesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\services\\igamesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\entities\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\entities\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,36 +75,16 @@
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\gamesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\models\\gamesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\gamesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\models\\gamesessioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\gamesessioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\educationgameapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\educationgameapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|solutionrelative:educationgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8495CFA3-9715-4B89-9DD5-DFF467E43077}|EducationGameAPI\\EducationGameAPI.csproj|d:\\minhduc\\laptrinh\\educationgameweb\\educationgameapi\\educationgameapi\\migrations\\20250704030938_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,59 +110,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameSessionController.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\GameSessionController.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Controllers\\GameSessionController.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\GameSessionController.cs",
-              "RelativeToolTip": "EducationGameAPI\\Controllers\\GameSessionController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T02:21:46.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameSessionService.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\GameSessionService.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Services\\GameSessionService.cs",
               "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\GameSessionService.cs",
               "RelativeToolTip": "EducationGameAPI\\Services\\GameSessionService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAkwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowHMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T17:16:06.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EducationGameAPI.http",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\EducationGameAPI.http",
-              "RelativeDocumentMoniker": "EducationGameAPI\\EducationGameAPI.http",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\EducationGameAPI.http",
-              "RelativeToolTip": "EducationGameAPI\\EducationGameAPI.http",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-08T01:45:28.328Z",
+              "DocumentIndex": 3,
+              "Title": "GameSessionController.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\GameSessionController.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Controllers\\GameSessionController.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\GameSessionController.cs",
+              "RelativeToolTip": "EducationGameAPI\\Controllers\\GameSessionController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAtwFkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T02:21:46.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Services\\AuthService.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "EducationGameAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T03:05:14.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\GameSession.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Entities\\GameSession.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\GameSession.cs",
+              "RelativeToolTip": "EducationGameAPI\\Entities\\GameSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T17:03:04.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Entities\\User.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\User.cs",
+              "RelativeToolTip": "EducationGameAPI\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T02:58:45.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EducationGameAPI\\appsettings.json",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\appsettings.json",
+              "RelativeToolTip": "EducationGameAPI\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBEAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T02:54:24.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Program.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Program.cs",
+              "RelativeToolTip": "EducationGameAPI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T02:56:40.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "EducationGameAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwDoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T03:04:25.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "GameSessionCreateDto.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionCreateDto.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameSessionCreateDto.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionCreateDto.cs",
+              "RelativeToolTip": "EducationGameAPI\\Models\\GameSessionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T17:09:07.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameSessionDto.cs",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionDto.cs",
+              "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameSessionDto.cs",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionDto.cs",
+              "RelativeToolTip": "EducationGameAPI\\Models\\GameSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T11:15:58.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IGameSessionService.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\IGameSessionService.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Services\\IGameSessionService.cs",
@@ -175,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "GameUnlockStatusDto.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameUnlockStatusDto.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameUnlockStatusDto.cs",
@@ -188,20 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Services\\AuthService.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "EducationGameAPI\\Services\\AuthService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv4MAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:05:14.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EducationGameAPI\\Properties\\launchSettings.json",
@@ -214,19 +279,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameSession.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\GameSession.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Entities\\GameSession.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\GameSession.cs",
-              "RelativeToolTip": "EducationGameAPI\\Entities\\GameSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:03:04.728Z"
+              "DocumentIndex": 11,
+              "Title": "EducationGameAPI.http",
+              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\EducationGameAPI.http",
+              "RelativeDocumentMoniker": "EducationGameAPI\\EducationGameAPI.http",
+              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\EducationGameAPI.http",
+              "RelativeToolTip": "EducationGameAPI\\EducationGameAPI.http",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-08T01:45:28.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Services\\IAuthService.cs",
@@ -234,11 +300,12 @@
               "RelativeToolTip": "EducationGameAPI\\Services\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:05:03.792Z"
+              "WhenOpened": "2025-07-04T03:05:03.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "RefreshTokenRequestDto.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\RefreshTokenRequestDto.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Models\\RefreshTokenRequestDto.cs",
@@ -246,11 +313,12 @@
               "RelativeToolTip": "EducationGameAPI\\Models\\RefreshTokenRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T02:59:23.266Z"
+              "WhenOpened": "2025-07-04T02:59:23.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TokenResponseDto.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\TokenResponseDto.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Models\\TokenResponseDto.cs",
@@ -258,11 +326,12 @@
               "RelativeToolTip": "EducationGameAPI\\Models\\TokenResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:00:09.365Z"
+              "WhenOpened": "2025-07-04T03:00:09.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "GameSummaryDto.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSummaryDto.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameSummaryDto.cs",
@@ -270,35 +339,12 @@
               "RelativeToolTip": "EducationGameAPI\\Models\\GameSummaryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T17:23:07.834Z"
+              "WhenOpened": "2025-07-05T17:23:07.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameSessionDto.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionDto.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameSessionDto.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionDto.cs",
-              "RelativeToolTip": "EducationGameAPI\\Models\\GameSessionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T11:15:58.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameSessionCreateDto.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionCreateDto.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Models\\GameSessionCreateDto.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\GameSessionCreateDto.cs",
-              "RelativeToolTip": "EducationGameAPI\\Models\\GameSessionCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:09:07.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Data\\AppDbContext.cs",
@@ -306,7 +352,8 @@
               "RelativeToolTip": "EducationGameAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:01:57.067Z"
+              "WhenOpened": "2025-07-04T03:01:57.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -318,23 +365,12 @@
               "RelativeToolTip": "EducationGameAPI\\Migrations\\20250705022034_addGameSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T02:20:34.839Z"
+              "WhenOpened": "2025-07-05T02:20:34.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Program.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Program.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Program.cs",
-              "RelativeToolTip": "EducationGameAPI\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T02:56:40.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "EducationGameAPI.csproj",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\EducationGameAPI.csproj",
               "RelativeDocumentMoniker": "EducationGameAPI\\EducationGameAPI.csproj",
@@ -342,11 +378,12 @@
               "RelativeToolTip": "EducationGameAPI\\EducationGameAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-04T02:52:57.735Z"
+              "WhenOpened": "2025-07-04T02:52:57.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "EducationGameAPI\\Models\\UserDto.cs",
@@ -354,19 +391,8 @@
               "RelativeToolTip": "EducationGameAPI\\Models\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:00:34.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "EducationGameAPI\\Entities\\User.cs",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\Entities\\User.cs",
-              "RelativeToolTip": "EducationGameAPI\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T02:58:45.871Z"
+              "WhenOpened": "2025-07-04T03:00:34.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -378,19 +404,8 @@
               "RelativeToolTip": "EducationGameAPI\\Migrations\\20250704030938_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:09:39.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EducationGameAPI\\appsettings.json",
-              "ToolTip": "D:\\MinhDuc\\laptrinh\\EducationGameWeb\\EducationGameAPI\\EducationGameAPI\\appsettings.json",
-              "RelativeToolTip": "EducationGameAPI\\appsettings.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-04T02:54:24.278Z"
+              "WhenOpened": "2025-07-04T03:09:39.084Z",
+              "EditorCaption": ""
             }
           ]
         }

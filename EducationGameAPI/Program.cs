@@ -1,4 +1,4 @@
-using EducationGameAPI.Data;
+﻿using EducationGameAPI.Data;
 using EducationGameAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Th�m CORS policy cho localhost:3000 (React)
+// Thêm CORS policy cho localhost:3000 (React)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -27,7 +27,12 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SheepGameDatabase")));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("SheepGameDatabase")));
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 2, 12)) // Sửa version nếu khác
+    )
+);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

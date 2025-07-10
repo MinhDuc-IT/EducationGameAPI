@@ -159,7 +159,6 @@ D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.EducationGameAPI.props
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.EducationGameAPI.props
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\staticwebassets.pack.json
-D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\Educatio.D935E1A7.Up2Date
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.dll
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\refint\EducationGameAPI.dll
@@ -167,3 +166,4 @@ D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.genruntimeconfig.cache
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\ref\EducationGameAPI.dll
 D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\EducationGameAPI.sourcelink.json
+D:\MinhDuc\laptrinh\EducationGameWeb\EducationGameAPI\EducationGameAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -20,13 +20,23 @@ namespace EducationGameAPI.Services
             // Tổng số lựa chọn của người dùng
             int totalAttempts = totalCorrect + gameSessionCreateDto.TotalWrongAnswers;
 
-            double totalAccuracy = 0;
+            double totalAccuracy = 0; // biến lưu tỷ lệ chọn đúng
             if (totalAttempts > 0)
             {
                 totalAccuracy = (double)totalCorrect / totalAttempts;
             }
 
-            double totalScore = (gameSessionCreateDto.CorrectFirstTry * 2) + (gameSessionCreateDto.CorrectSecondTry * 1);
+            double totalScore = 0;
+
+            if (gameSessionCreateDto.GameType == "SheepMemoryMatch")
+            {
+                totalScore = (gameSessionCreateDto.CorrectFirstTry * 2) + (gameSessionCreateDto.CorrectSecondTry * 1);
+            }
+            else
+            {
+                totalScore = (gameSessionCreateDto.CorrectFirstTry * 4) + (gameSessionCreateDto.CorrectSecondTry * 2);
+            }
+            
 
             var gameSession = new Entities.GameSession
             {
@@ -48,7 +58,7 @@ namespace EducationGameAPI.Services
             return gameSession.Id;
         }
 
-        public async Task<GameSummaryDto?> GetGameSummaryAsync(Guid userId, string gameType)
+        public async Task<GameSummaryDto?> GetGameSummaryAsync(Guid userId, string gameType) // hàm lấy thông tin tổng hợp mà user đã chơi game này
         {
             var gameSessions = await context.GameSessions
                 .Where(gs => gs.UserId == userId && gs.GameType == gameType)
@@ -56,9 +66,9 @@ namespace EducationGameAPI.Services
 
             if (gameSessions.Count == 0) return null;
 
-            var totalSeconds = gameSessions.Sum(gs => (int)(gs.EndTime - gs.StartTime).TotalSeconds);
-            var totalScore = gameSessions.Sum(gs => gs.Score);
-            var averageAccuracy = gameSessions.Average(gs => gs.Accuracy);
+            var totalSeconds = gameSessions.Sum(gs => (int)(gs.EndTime - gs.StartTime).TotalSeconds); // tổng thời gian đã chơi game này (tính theo giây)
+            var totalScore = gameSessions.Sum(gs => gs.Score); // tổng điểm đạt được của tất cả lượt chơi game này
+            var averageAccuracy = gameSessions.Average(gs => gs.Accuracy); // trung bình tỷ lệ chọn đúng
 
             return new GameSummaryDto
             {
@@ -68,7 +78,7 @@ namespace EducationGameAPI.Services
             };
         }
 
-        public async Task<GameSessionDto?> GetLatestSessionAsync(Guid userId, string gameType)
+        public async Task<GameSessionDto?> GetLatestSessionAsync(Guid userId, string gameType) // hàm lấy thông tin lượt chơi mới nhất
         {
             var latestSession = await context.GameSessions
                 .Where(gs => gs.UserId == userId && gs.GameType == gameType)
@@ -88,7 +98,7 @@ namespace EducationGameAPI.Services
             };
         }
 
-        public async Task<List<(string GameType, double TotalScore)>> GetGameScoresAsync(Guid userId)
+        public async Task<List<(string GameType, double TotalScore)>> GetGameScoresAsync(Guid userId) // hàm lấy tổng điểm của game
         {
             var sessions = await context.GameSessions
                 .Where(s => s.UserId == userId)
@@ -103,11 +113,11 @@ namespace EducationGameAPI.Services
             return sessions.Select(s => (s.GameType, s.TotalScore)).ToList();
         }
 
-        public async Task<List<string>> GetUnlockedGamesAsync(Guid userId)
+        public async Task<List<string>> GetUnlockedGamesAsync(Guid userId) // hàm lấy các game được mở khóa cho user chơi
         {
             var scores = await GetGameScoresAsync(userId);
 
-            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "NewGame" };
+            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "SheepMemoryMatch" };
             var unlocked = new List<string>();
 
             double prevScore = 0;
@@ -117,7 +127,7 @@ namespace EducationGameAPI.Services
                 var game = gameOrder[i];
                 var currentScore = scores.FirstOrDefault(s => s.GameType == game).TotalScore;
 
-                bool isUnlocked = i == 0 || prevScore >= 50;
+                bool isUnlocked = i == 0 || prevScore >= 100;
 
                 if (isUnlocked)
                 {
@@ -129,10 +139,10 @@ namespace EducationGameAPI.Services
             return unlocked;
         }
 
-        public async Task<List<GameUnlockStatusDto>> GetUnlockStatusWithScoresAsync(Guid userId)
+        public async Task<List<GameUnlockStatusDto>> GetUnlockStatusWithScoresAsync(Guid userId) // hàm lấy trạng thái mở khóa của game
         {
             var scores = await GetGameScoresAsync(userId);
-            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "NewGame" };
+            var gameOrder = new List<string> { "SheepCounting", "SheepColorCounting", "SheepMemoryMatch" };
 
             var result = new List<GameUnlockStatusDto>();
             double prevScore = 0;
@@ -142,7 +152,7 @@ namespace EducationGameAPI.Services
                 var game = gameOrder[i];
                 double score = scores.FirstOrDefault(s => s.GameType == game).TotalScore;
 
-                bool unlocked = i == 0 || prevScore >= 50;
+                bool unlocked = i == 0 || prevScore >= 100;
 
                 if (unlocked)
                 {
